@@ -16,7 +16,7 @@ const corsOptions = {
 };
 
 const MONGODB_URI =
-  "mongodb+srv://root:bvNJjq9M36AceBPg@cluster0.fxlmihd.mongodb.net/?retryWrites=true&w=majority";
+  "Your mongoDb URI";
 
 const app = express();
 app.use(express.static(path.join(__dirname, "build")));
